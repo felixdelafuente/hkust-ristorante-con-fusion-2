@@ -4,7 +4,7 @@ import Menu from "./Menu";
 import DishDetail from "./DishDetail";
 import { DISHES } from "../shared/dishes";
 
-// Container component responsible for everything related to the state of the web app.
+// Container component responsible for everything related to the state of Menu and DishDetail components.
 class Main extends Component {
   // Defines the state of DISHES and stores it to dishes.
   constructor(props) {
